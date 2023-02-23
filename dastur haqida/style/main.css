@@ -1,0 +1,467 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto Slab", serif;
+}
+
+.container{
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+}
+.active{
+    display: none;
+}
+.activest{
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+
+.space-betwin{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section */
+
+.section{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+.mein_left-section{
+    width: 15%;
+    /* position: sticky; */
+    top: 0;
+    height: 100vh;
+    background-color: #f5f6f7;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+
+.top_navbar-mein{
+    height: 70px;
+    background-color: #eff1f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.top_navbar-mein a img{
+    width: 180px;
+}
+.mein-left_navbar{
+    padding: 20px ;
+}
+.mein-left_navbar ul:first-child li a{
+    border-bottom: 0;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.mein-left_navbar ul:last-child li a{
+    border-bottom: 0;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5em;
+    color: #f56a6a;
+}
+
+.top-right_burger{
+    width: 100%;
+    height: 70px;
+    padding: 30px 10px;
+    position: sticky;
+    top: 0;
+}
+
+.burger{
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.burger .bur{
+    width: 25px;
+    height: 4px;
+    border-radius: 15%;
+    margin-bottom: 3px;
+    background-color: #f56a6a;
+}
+.burger1{
+    width: auto;
+    display: none;
+    height: auto;
+    cursor: pointer;
+    margin: 18px;
+}
+
+.burger1 .bur1{
+    width: 25px;
+    height: 4px;
+    border-radius: 15%;
+    margin-bottom: 3px;
+    background-color: #f56a6a;
+}
+
+.heder_mein{
+    width: 90%;
+    height: auto;
+    margin:  0 auto;
+    border-bottom: 1px solid #7f888f;
+    padding-bottom: 100px;
+}
+.text_header h1{
+    border-bottom: solid 3px #f56a6a;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0;
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    font-size: 28px;
+}
+
+.box_header-name{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.header_box-bottom {
+    margin-top: 70px;
+}
+.block_one-one, .block_one-two{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.icons_block, .icons_block2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.icons_block::before{
+    content: " ";
+    position: absolute;
+    transform: rotate(45deg);
+    border-radius: 0.25rem;
+    border: solid 2px rgba(210, 215, 217, 0.75);
+    display: block;
+    height: 6em;
+    left: 50%;
+    margin: -3.5em -3em;
+    position: absolute;
+    top: 50%;
+    width: +6em;
+}
+.icons_block i{
+    font-size: 50px;
+    color: #f56a6a;
+}
+.icons_block2::before{
+    content: " ";
+    position: absolute;
+    transform: rotate(45deg);
+    border-radius: 0.25rem;
+    border: solid 2px rgba(210, 215, 217, 0.75);
+    display: block;
+    height: 6em;
+    left: 50%;
+    margin: -3em -2.7em;
+    position: absolute;
+    top: 50%;
+    width: 6em;
+}
+.icons_block2 i{
+    font-size: 45px;
+    color: #f56a6a;
+}
+
+
+.text_blocks{
+    width: 70%;
+    height: auto;
+}
+
+.text_blocks h2{
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 0.3em 0;
+    font-size: 1.25em;
+}
+
+.text_blocks p{
+    color: #7f888f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+.mein_right-section{
+    width: 80%;
+    height: auto;
+}
+
+.authors{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.block_authors{
+    width: 100%;
+    height: auto;
+}
+.box_one-aut{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.left_block{
+    width: 50%;
+    height: auto;
+    padding: 20px 40px;
+    border-bottom: 1px solid #7f888f;
+    border-right: 1px solid #7f888f;
+}
+.right_block{
+    width: 50%;
+    height: auto;
+    padding: 20px 40px;
+    border-bottom: 1px solid #7f888f;
+}
+
+.img_bacr{
+    width: 100%;
+    height: 300px;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.img_bacr img{
+    width: 50%;
+    height: 100%;
+    margin:  0 auto;
+}
+
+.text_top-aut h2{
+    border-bottom: solid 3px #f56a6a;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0;
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
+.left_block h3, .right_block h3{
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 10px 0 0.5em 0;
+}
+.left_block p, .right_block p{
+    color: #7f888f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13pt;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.left_block button, .right_block button{
+    padding: 8px 20px;
+    margin-top: 15px;
+    border: 2px solid #f56a6a;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #f56a6a;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1200px){
+    .top_navbar-mein h1 a{
+        font-size: 30px;
+    }
+    .icons_block::before{
+        width: 4em;
+        height: 4em;
+        margin: -2.3em -2em;
+    }
+    .icons_block i{
+        font-size: 40px;
+    }
+    .icons_block2::before{
+        width: 4em;
+        height: 4em;
+        margin: -2.3em -2em;
+    }
+    .icons_block2 i{
+        font-size: 35px;
+    }
+    .top_navbar-mein a img{
+        width: 130px;
+    }
+
+}
+@media only screen and (max-width: 950px){
+    .top_navbar-mein h1 a{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 850px){
+    .top_navbar-mein h1 a{
+        font-size: 20px;
+    }
+    .text h1{
+        font-size: 28px;
+    }
+    .top_navbar-mein a img{
+        width: 100px;
+    }
+    
+}
+
+@media only screen and (max-width: 750px){
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .mein_left-section{
+        width: 100%;
+        height: auto;
+    }
+    .top-right_burger{
+        display: none;
+    }
+    .burger{
+        display: none;
+    }
+    .burger1{
+        display: block;
+    }
+    .mein-left_navbar{
+        display: block;
+    }
+    .active1{
+        display: none;
+    }  
+    .header_box-top {
+        display: block;
+        margin-bottom: 20px;
+    } 
+    .header_box-top div{
+        margin-bottom: 40px;
+    }
+    .header_box-bottom{
+        display: block;
+        margin: 0;
+    }
+    .header_box-bottom div{
+        margin-bottom: 40px;
+    }
+    .icons_block::before{
+        width: 6em;
+        height: 6em;
+        margin: -3.3em -3em;
+    }
+    .icons_block i{
+        font-size: 55px;
+    }
+    .icons_block2::before{
+        width: 6em;
+        height: 6em;
+        margin: -3.3em -3em;
+    }
+    .icons_block2 i{
+        font-size: 45px;
+    }
+
+    .left_block, .right_block{
+        padding: 20px;
+    }
+    .top_navbar-mein{
+        padding: 10px 40px;
+    }
+    .top_navbar-mein a img{
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .text_input input{
+        width: 300px;
+        padding: 10px 25px;
+    }
+    .button_input input{
+        padding: 13px 20px;
+    }
+    .box_one-aut{
+        display: block;
+    }
+    .left_block, .right_block{
+        width: 100%;
+        border-right: none;
+        
+    }
+}
+@media only screen and (max-width: 450px){
+    .search{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button_input input{
+        margin-top: 10px;
+    }
+    .box_fist{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .icons_block::before{
+        width: 4em;
+        height: 4em;
+        margin: -2.3em -2em;
+    }
+    .icons_block i{
+        font-size: 40px;
+    }
+    .icons_block2::before{
+        width: 4em;
+        height: 4em;
+        margin: -2.3em -2em;
+    }
+    .icons_block2 i{
+        font-size: 35px;
+    }
+    .text_header h1{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+}
